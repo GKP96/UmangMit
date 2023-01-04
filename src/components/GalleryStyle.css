@@ -1,0 +1,71 @@
+.Achivement-heading1{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #555555;
+    text-align: center;
+    /* padding: 4rem 0 2rem 0; */
+
+}
+.Ach-container1{
+    margin: 0;
+    background:#cac3b8;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.Achivement-container1{
+   
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    /* padding-bottom: 5rem; */
+    /* text-align: center; */
+    /* align-items: center; */
+   
+
+}
+.Achivement-card1{
+    background: #839a9b;
+    /* padding: 1.2rem 1rem; */
+    box-shadow: 10px 10px 10px -5px #333;
+}
+.img-cont1{
+    display: block;
+    align-items: center;
+    text-align: center;
+    /* border-radius: 20%; */
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 450px;
+}
+.img-cont2{
+    width: auto;
+    height: fit-content;
+}
+.Achivement-card1 img{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    /* border-radius: 50%; */
+    /* border: 2px solid blue; */
+}
+
+@media screen  and (max-width:980px){
+    .Achivement-container1{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen  and (max-width:740px){
+    .Achivement-container1{
+         max-width: 90%;
+         max-width: auto;
+         margin: auto;
+         grid-template-columns: 1fr;
+    }
+   
+}
+

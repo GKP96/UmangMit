@@ -1,0 +1,152 @@
+.project-heading{
+    margin: 0;
+    color: #555555;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+
+}
+.work-container{
+    position: relative;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    /* border-top-left-radius: 20%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 25%; */
+    background:#efeae2;
+    align-items: center;
+}
+.download-btn{
+    border: 5px solid gray;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1140px;
+    flex-direction: row;
+    height: 70px;
+    margin-left:15% ;
+    margin-bottom: 1rem;
+
+}
+.event-btn{
+    width: 100%;
+    /* margin-right: 20px; */
+    margin-bottom: 5%;
+    /* margin-right: 15%; */
+    /* padding: 5%; */
+
+}
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+   
+
+}
+.project-card{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color:#935345;
+    text-align: center;
+    
+    /* padding: 1.2rem 1rem; */
+    box-shadow: 0 10px 10px -5px;
+}
+
+.project-card img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 100%;
+    /* height: 100%; */
+    /* margin-bottom: auto; */
+}
+.project-title{
+     
+     text-align: center;
+     color:white;
+     padding:1rem 0;
+     margin-bottom: auto;
+}
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+
+}
+.event-img_style{
+    width: 100%;
+    height: 200px;
+}
+.pro-btns{
+    
+    display: flex;
+    justify-content: space-between ;
+    padding: 0.5rem ;
+
+
+}
+.pro-btns .btn{
+    background-color: #2e5041;
+    color:#efeae2 ;
+     padding: 0.5rem 1rem;
+     
+     margin-top:auto;
+     bottom: 0;
+
+    
+
+}
+.event-btn:hover{
+    background:#ffff;
+    color: #2e5041;
+}
+@media screen  and (max-width:1100px){
+    .project-container{
+       
+        grid-template-columns: repeat(3,1fr);
+       
+       
+    
+    }
+}
+@media screen  and (max-width:900px){
+    .project-container{
+       
+        grid-template-columns: repeat(2,1fr);
+       
+       
+    
+    }
+}
+@media screen  and (max-width:740px){
+    .project-container{
+         max-width: 90%;
+         
+         margin: auto;
+         grid-template-columns: 1fr;
+    }
+    .work-container{
+       
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 5%;
+       
+    }
+    .download-btn{
+        height: auto;
+        margin-bottom: 20px;
+        grid-template-columns: 1fr;
+        max-width: 90%;
+    
+    
+    }
+    .event-btn{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+

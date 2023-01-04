@@ -1,0 +1,91 @@
+.Team-heading{
+    margin: 0;
+    color: #555555;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+
+}
+.Ach-container{
+    margin: 0;
+    background:#cac3b8;
+    text-align: center;
+    align-items: center;
+}
+.Team-container{
+   
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+    /* text-align: center; */
+    /* align-items: center; */
+   
+
+}
+.Team-card{
+    background: #839a9b;
+    border-radius: 5%;
+    /* padding: 1.2rem 1rem; */
+    /* display: flex; */
+    box-shadow: 10px 10px 10px -5px #333;
+}
+.img-cont{
+    display: block;
+    align-items: center;
+    text-align: center;
+    /* border-radius: 20%; */
+    /* border: 3px solid red; */
+    height: 250px;
+}
+.Team-card img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+    /* border: 2px solid blue; */
+}
+
+/* .pro-details p{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+
+} */
+.team-details{
+    display: flex;
+   width: 100%;
+   margin: 0;
+   padding-top: 1rem;
+   justify-content: center;
+   /* align-items: center; */
+  
+}
+.pro-btns{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+.pro-btns .btn{
+     padding: 0.5rem 1rem;
+}
+
+@media screen  and (max-width:980px){
+    .Team-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen  and (max-width:740px){
+    .Team-container{
+         max-width: 90%;
+         max-width: auto;
+         margin: auto;
+         grid-template-columns: 1fr;
+    }
+}
+
