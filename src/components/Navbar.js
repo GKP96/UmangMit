@@ -33,7 +33,7 @@ const Navbar = () => {
                 <Link to="/Project">EVENTS</Link>
             </li>
             <li >
-                <a href="https://drive.google.com/file/d/1AW2-Z94nFIWRnvIzfn1anPF6kh-cQzp4/view?usp=share_link">RULEBOOK</a>
+                <a href="https://drive.google.com/file/d/15Z3_MBYEt9eawQZEqkHyWFzgquXQSXzk/view?usp=drivesdk">RULEBOOK</a>
             </li>
             <li >
                 <Link to="/Gallery">GALLERY</Link>

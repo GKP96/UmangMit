@@ -30,6 +30,9 @@ ol{
     border-radius: 2%;
 
 }
+.foot{
+    font-size: 40px;
+}
 .right{
     box-sizing: inherit;
     /* border: 2px solid blue; */
@@ -97,6 +100,9 @@ ol{
         text-align: center;
         padding:20px ;
     
+    }
+    .foot{
+        font-size: 30px;
     }
     
     

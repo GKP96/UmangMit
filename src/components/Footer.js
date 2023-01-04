@@ -35,6 +35,7 @@ const Footer = () => {
                     <li>+91-7561951533</li>
                     <li>+91-9660829159</li>
                     <li>+91-7273951360</li>
+                    <li>+91-9304678355</li>
                   
                 </ul>
               </li>
@@ -65,27 +66,31 @@ const Footer = () => {
         <div className="right">
           <a href="https://www.facebook.com/mitmsports">
             <FaFacebookSquare
-              size={50}
+              className="foot"
+              // size={50}
               style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
 
           <a href="mailto:sportsclubmit@mitmuzaffarpur.org">
             <FaMailBulk
-              size={50}
+              // size={50}
+              className="foot"
               style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
           <a href="https://www.instagram.com/mitsports_club/">
             <FaInstagram
-              size={50}
+              // size={50}
+              className="foot"
               style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
 
           <a href="https://youtube.com/@sportsclubmitm">
             <FaYoutube
-              size={50}
+              // size={50}
+              className="foot"
               style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
