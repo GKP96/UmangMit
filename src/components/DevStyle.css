@@ -21,7 +21,7 @@
   
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 1140px;
+    max-width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,11 +83,12 @@
 
 @media screen and (max-width:980px) {
     .Dev-container {
-        grid-template-columns: repeat(3, 1fr);
+        max-width: 90%;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:580px) {
     .Dev-container {
         max-width: 90%;
         max-width: auto;

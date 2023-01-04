@@ -9,6 +9,11 @@
     z-index: 10;
    
 }
+.nav-heading{
+    font-size: 1.2rem;
+     border: 2px solid red;
+    
+}
 .logo{
     /* border: 2px solid red; */
     margin-left: 3rem;

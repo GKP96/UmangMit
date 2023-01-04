@@ -6,7 +6,7 @@
 
 }
 .work-container{
-    position: relative;
+     margin: 0;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     /* border-top-left-radius: 20%;
@@ -15,6 +15,7 @@
     border-bottom-right-radius: 25%; */
     background:#efeae2;
     align-items: center;
+
 }
 .download-btn{
     border: 5px solid gray;
@@ -36,14 +37,13 @@
 
 }
 .project-container{
-    max-width: 1140px;
+    max-width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
    
-
 }
 .project-card{
     border-radius: 5%;
@@ -60,6 +60,7 @@
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     width: 100%;
+   
     /* height: 100%; */
     /* margin-bottom: auto; */
 }
@@ -103,25 +104,18 @@
     background:#ffff;
     color: #2e5041;
 }
-@media screen  and (max-width:1100px){
+
+
+@media screen  and (max-width:1180px){
     .project-container{
-       
-        grid-template-columns: repeat(3,1fr);
-       
-       
-    
-    }
-}
-@media screen  and (max-width:900px){
-    .project-container{
-       
+       max-width: 90%;
         grid-template-columns: repeat(2,1fr);
        
        
     
     }
 }
-@media screen  and (max-width:740px){
+@media screen  and (max-width:580px){
     .project-container{
          max-width: 90%;
          

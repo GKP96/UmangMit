@@ -11,7 +11,7 @@ const Project = () => {
     <div>
       <Navbar></Navbar>
       {/* <HeroImage/> */}
-      <HeroImg heading="EVENTS" text="REGISTER NOW"  />
+      <HeroImg heading="EVENTS" />
       <Work/>
       <Footer/>
     </div>

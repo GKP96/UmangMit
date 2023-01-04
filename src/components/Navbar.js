@@ -23,26 +23,26 @@ const Navbar = () => {
             <img className='logo' src="https://i.imgur.com/tIW34tf.png" alt='logo'/>
         </Link>
         <ul className={click ?"nav-menu active" :"nav-menu fill"}>
-            <li >
-                <Link to="/">HOME</Link>
+            <li className='nav-heading'>
+                <Link  to="/">HOME</Link>
             </li>
             <li >
-                <Link to="/About">ABOUT</Link>
+                <Link className='nav-heading'to="/About">ABOUT</Link>
             </li>
             <li >
-                <Link to="/Project">EVENTS</Link>
+                <Link className='nav-heading'to="/Project">EVENTS</Link>
             </li>
             <li >
-                <a href="https://drive.google.com/file/d/15Z3_MBYEt9eawQZEqkHyWFzgquXQSXzk/view?usp=drivesdk">RULEBOOK</a>
+                <a className='nav-heading' href="https://drive.google.com/file/d/15Z3_MBYEt9eawQZEqkHyWFzgquXQSXzk/view?usp=drivesdk">RULEBOOK</a>
             </li>
             <li >
-                <Link to="/Gallery">GALLERY</Link>
+                <Link className='nav-heading'to="/Gallery">GALLERY</Link>
             </li>
             <li >
-                <Link to="/OurTeam">TEAM</Link>
+                <Link className='nav-heading'to="/OurTeam">TEAM</Link>
             </li>
             {/* <li >
-                <Link to="">CONTACT</Link>
+                <Link to="className='nav-heading'">CONTACT</Link>
             </li> */}
         </ul>
         <div className='hamburger' onClick={handleClick}>
