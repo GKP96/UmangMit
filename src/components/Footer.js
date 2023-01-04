@@ -64,7 +64,7 @@ const Footer = () => {
           ></iframe>
         </div>
         <div className="right">
-          <a href="https://www.facebook.com/mitmsports">
+          <a  target="_blank" rel='noreferrer'  href="https://www.facebook.com/mitmsports">
             <FaFacebookSquare
               className="foot"
               // size={50}
@@ -72,14 +72,14 @@ const Footer = () => {
             />
           </a>
 
-          <a href="mailto:sportsclubmit@mitmuzaffarpur.org">
+          <a  target="_blank" rel='noreferrer'  href="mailto:sportsclubmit@mitmuzaffarpur.org">
             <FaMailBulk
               // size={50}
               className="foot"
               style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
-          <a href="https://www.instagram.com/mitsports_club/">
+          <a  target="_blank" rel='noreferrer'  href="https://www.instagram.com/mitsports_club/">
             <FaInstagram
               // size={50}
               className="foot"
@@ -87,7 +87,7 @@ const Footer = () => {
             />
           </a>
 
-          <a href="https://youtube.com/@sportsclubmitm">
+          <a  target="_blank" rel='noreferrer'  href="https://youtube.com/@sportsclubmitm">
             <FaYoutube
               // size={50}
               className="foot"

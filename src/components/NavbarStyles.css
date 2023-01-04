@@ -9,11 +9,7 @@
     z-index: 10;
    
 }
-.nav-heading{
-    font-size: 1.2rem;
-     border: 2px solid red;
-    
-}
+
 .logo{
     /* border: 2px solid red; */
     margin-left: 3rem;
@@ -48,7 +44,7 @@
 }
 
 .nav-menu li a{
-            font-size: 1.2rem;
+            font-size: 1.8rem;
             font-weight:500;
 
 }
@@ -78,7 +74,7 @@
          padding: 1rem 0;
     }
     .nav-menu li a{
-         font-size: 2rem;
+         font-size: 1.2rem;
 
     }
     .hamburger{

@@ -9,7 +9,7 @@ const DevCard = (props) => {
         </div>
         <div className='dev-pro-details'>
            <center> <p className='Dev-name'>{props.text}</p></center>
-           <a href={props.pink}>
+           <a  target="_blank" rel='noreferrer'  href={props.pink}>
             <FaLinkedin
               size={30}
               style={{ color: "#2e5041",marginBottom:"10px" }}
