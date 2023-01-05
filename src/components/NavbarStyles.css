@@ -52,8 +52,14 @@
 .hamburger{
     display: none;
 }
+@media screen and (max-width:1290px){
+    .nav-menu li a{
+        font-size: 1.4rem;
 
-@media screen and (max-width:1040px) {
+   }
+}
+
+@media screen and (max-width:1000px) {
     .nav-menu{
         flex-direction: column;
         justify-content: center;

@@ -44,7 +44,7 @@
     text-align: center;
     /* border-radius: 20%; */
     /* border: 3px solid red; */
-    height: 250px;
+    height: 300px;
 }
 .Team-card img{
     border-top-left-radius: 5%;
@@ -84,14 +84,15 @@
 
 @media screen  and (max-width:980px){
     .Team-container{
-        max-width: 90%;
+        max-width: 80%;
         grid-template-columns: repeat(2,1fr);
+        /* height: 350px; */
     }
 }
 
 @media screen  and (max-width:580px){
     .Team-container{
-         max-width: 90%;
+         max-width: 80%;
          /* max-width: auto; */
          margin: auto;
          grid-template-columns: 1fr;

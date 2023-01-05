@@ -3,7 +3,7 @@ import React from 'react'
 import "./TeamCardStyle.css"
 import TeamCard from './TeamCard'
 import TeamData from './TeamData'
-import TeacherData from './TeacherData'
+
 
 const Team = () => {
     return (

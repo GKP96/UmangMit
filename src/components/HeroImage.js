@@ -23,11 +23,7 @@ const HeroImage = () => {
       </div>
 
       <div className="content">
-        {/* <img
-          src={"https://i.imgur.com/tIW34tf.png"}
-          alt="Avtar"
-          className="avtar"
-        ></img> */}
+        
         <p></p>
         <h1> UMANG' 2022</h1>
         <img className="data" src={"https://i.imgur.com/fnIUJxK.png"} alt='imghairebaba'></img>
@@ -41,12 +37,7 @@ const HeroImage = () => {
         </Link>
         <h4>Registration Closes in</h4>
         <h1 ><Time/></h1>
-        {/* <a className="btn" href="https://drive.google.com/file/d/1Wiuct2nbAYB2ywommXIY7l9sjOl9F7UD/view?usp=share_link">RULES</a> */}
-        {/* <Link to="/Contact" className="btn btn-light">Contact</Link> */}
-        {/* <a className="btn" href="https://docs.google.com/document/d/1YE6LIQM2rabqaD_gV_07FWXMQ_oFV-Pg/edit?usp=share_link&ouid=110928713683485523457&rtpof=true&sd=true
-">CONSENT</a> */}
-{/* <a href="https://docs.google.com/document/d/1cJl48y2fznOCpsGHIrEoP5WvF_NCCKXy/edit?usp=share_link&ouid=110928713683485523457&rtpof=true&sd=true
-" className="btn">DECLERATION</a> */}
+        
       </div>
     </div>
   );
