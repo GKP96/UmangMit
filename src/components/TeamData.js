@@ -1,18 +1,6 @@
 
 const TeamData=[
-    // {
-    //     imgsrc:"https://www.credit-suisse.com/pwp/hr/en/codingchallenge/static/media/gcc_white2.769e66af.png",
-    //     // text:"Secured 166 rank in Global Coding Challenge 2022 by Credit Suisse.",
-    //     text:"VINAY",
-    // des:"Student Coordinator"    
-    // view:"url.com"
-    // },
-    // {    text:"UTKARSH KUMAR",
-    //     imgsrc:"https://storage.googleapis.com/cdcontent/images/icpc_logo.png",
-    //     // text:"Qualified the Prestigious ACM-ICPC regionals in 2020 and Ranked 86 in Kanpur Regions",
-    // des:"Student Coordinator"    
-    // view:"url.com"
-    // }
+  
     // ,
     // {
         // 1. Prof. Sanjay Kumar Choudhary,
