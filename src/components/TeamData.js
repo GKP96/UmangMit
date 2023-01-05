@@ -13,15 +13,44 @@ const TeamData=[
     // }
     // ,
     // {
-
+        // 1. Prof. Sanjay Kumar Choudhary,
+        // Chairman, MIT Sports Club
+        // 2. Prof. Ravi Kumar, ECE, Coordinator, Sports Club & Umang
+        // 3. Prof. Ankit Kumar Singh, EE, Umang Coordinator
+        // 4. Prof. Ankit Kumar, ME, Umang Coordinator
+        // 5. Prof. Rajeev Kumar, CE, Umang Coordinator
     //     text:"SHAD ALAM",
     //     imgsrc:"https://repository-images.githubusercontent.com/299426148/e87b3380-0438-11eb-8002-efa583f90498",
     //     // text:"Secured 1583 rank in Round G Google KickStart 2022 among 11k participants.",
     //     view:"url.com"
     // }
     // ,
+    {
+        text:"Prof. Sanjay Kumar Choudhary",
+        imgsrc:"https://i.imgur.com/mv3cxtJ.jpg",
+        des:"Chairman,MIT Sports Club",
+        branch:""
 
-    
+    },
+   {
+        text:"Prof. Ravi Kumar (EC)",
+        imgsrc:"https://i.imgur.com/OXmzsIc.jpg",
+        des:"Coordinator, Sports Club & Umang",
+        branch:"ECE"
+    },
+    {
+        text:"Prof. Ankit Kumar Singh (EE)",
+        imgsrc:"https://i.imgur.com/uF9Ivzd.jpg",
+        des:"Umang Coordinator",
+        branch:"EE"
+    },
+    {
+        text:"Prof. Ankit Kumar (ME)",
+        imgsrc:"https://i.imgur.com/mhbwoil.jpg",
+        des:"Umang Coordinator",
+        branch:"ME"
+    },
+     
     {
         text:"PREM KUMAR",
         // imgsrc:"https://img.icons8.com/color/2x/codechef.png",
@@ -45,6 +74,10 @@ const TeamData=[
         // imgsrc:"https://i0.wp.com/applied-science.tiu.edu.iq/information-technology/wp-content/uploads/2019/02/hashcodeBanner-1.png",
         // text:"Secured 4484 Rank in Round 1 Google Code Jam 2022",
         view:"url.com"
+    },
+    {
+        text:"Rishi Kumar",
+        imgsrc:"https://i.imgur.com/H4ieXNY.jpg",
     }
 
     ,

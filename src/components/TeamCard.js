@@ -8,7 +8,7 @@ const TeamCard = (props) => {
         </div>
         <div className='team-details'>
            <center> <p className='team-name'>{props.text}</p></center>
-           
+           <p className='desc-cont'>{props.des}</p>
         </div>
     </div>
     )

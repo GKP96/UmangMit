@@ -6,7 +6,7 @@ import  HeroImg  from '../components/HeroImg'
 import Navbar from '../components/Navbar'
 import Work from '../components/Work'
 
-const Project = () => {
+const Events = () => {
   return (
     <div>
       <Navbar></Navbar>
@@ -18,4 +18,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Events

@@ -36,7 +36,7 @@ const HeroImage = () => {
         <a href="https://forms.gle/HniKrDwCRTCxv9ve7" target="_blank" rel='noreferrer' className="btn">
           Accomodation
         </a>
-        <Link to="/Project" className="btn">
+        <Link to="/Events" className="btn">
           EVENTS
         </Link>
         <h4>Registration Closes in</h4>

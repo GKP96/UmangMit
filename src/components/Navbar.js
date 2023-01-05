@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Link className='nav-heading'to="/About">ABOUT</Link>
             </li>
             <li >
-                <Link className='nav-heading'to="/Project">EVENTS</Link>
+                <Link className='nav-heading'to="/Events">EVENTS</Link>
             </li>
             <li >
                 <a target="_blank" rel='noreferrer' className='nav-heading' href="https://drive.google.com/file/d/15Z3_MBYEt9eawQZEqkHyWFzgquXQSXzk/view?usp=drivesdk">RULEBOOK</a>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link className='nav-heading'to="/Gallery">GALLERY</Link>
             </li>
             <li >
-                <Link className='nav-heading'to="/OurTeam">TEAM</Link>
+                <Link className='nav-heading'to="/Team">TEAM</Link>
             </li>
             {/* <li >
                 <Link to="className='nav-heading'">CONTACT</Link>

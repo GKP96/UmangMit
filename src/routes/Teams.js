@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import HeroImg from '../components/HeroImg'
-import HeroImage from "../components/HeroImage"
+// import HeroImage from "../components/HeroImage"
 import Navbar from '../components/Navbar'
 import Team from '../components/Team'
 import Dev from '../components/Dev'
-const OurTeam= () => {
+const Teams= () => {
   return (
     <div>
       <Navbar/>
@@ -18,4 +18,4 @@ const OurTeam= () => {
   )
 }
 
-export default OurTeam
+export default Teams
